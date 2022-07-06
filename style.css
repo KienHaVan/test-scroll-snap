@@ -13,5 +13,6 @@
     padding: 20px 110px;
     scroll-snap-align: center;
     background-color: red;
+    scroll-snap-stop: always;
 
   }
