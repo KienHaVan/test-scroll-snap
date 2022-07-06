@@ -1,0 +1,17 @@
+.section {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 1rem;
+    scroll-padding: 48px;
+    padding-bottom: 32px;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .section__item {
+    font-size: 30px;
+    padding: 20px 110px;
+    scroll-snap-align: center;
+    background-color: red;
+
+  }
